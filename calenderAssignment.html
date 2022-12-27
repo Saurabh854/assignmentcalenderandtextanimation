@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: cyan;
+    }
+
+    .container {
+        width: 400px;
+        height: 400px;
+        /* background-color: aqua; */
+        display: grid;
+        /* grid-template-columns: repeat(1fr, 7); */
+        padding-left: 50px;
+        grid-template-rows: repeat(1fr, 6);
+
+        /* grid-column-gap: 20px; */
+        grid-gap: 25px;
+
+    }
+
+    .calender>.container>h1 {
+        text-align: center;
+        background-color: azure;
+
+    }
+
+    .head {
+        background-color: rgb(47, 37, 156);
+        display: flex;
+        height: 30px;
+        color: aliceblue;
+        font-weight: 900;
+
+
+    }
+
+    .head>li {
+        list-style: none;
+        padding: 10px 15px;
+
+    }
+
+    .row2 {
+        background-color: antiquewhite;
+        display: flex;
+        height: 30px;
+        list-style: none;
+        justify-content: space-between;
+
+    }
+
+    .row2>li {
+        list-style: none;
+        padding: 10px 21px;
+    }
+
+    .row3 {
+        background-color: antiquewhite;
+        display: flex;
+        height: 30px;
+        list-style: none;
+
+    }
+
+    .row3>li {
+        list-style: none;
+        padding: 10px 21px;
+    }
+
+    .row4 {
+        background-color: antiquewhite;
+        display: flex;
+        height: 30px;
+        list-style: none;
+
+    }
+
+    .row4>li {
+        list-style: none;
+        padding: 10px 21px;
+    }
+
+    .row1 {
+        background-color: antiquewhite;
+        display: flex;
+        height: 30px;
+        list-style: none;
+        padding-left: 20px;
+
+    }
+
+    .row1>li {
+        list-style: none;
+        padding: 10px 24px;
+    }
+
+    .row5 {
+        background-color: antiquewhite;
+        display: flex;
+        height: 30px;
+        list-style: none;
+
+    }
+
+    .row5>li {
+        list-style: none;
+        padding: 10px 21px;
+    }
+
+    .calender {
+        border: 2px solid goldenrod;
+        width: 480px;
+        padding-right: 500px;
+        padding-bottom: 50px;
+
+
+    }
+</style>
+
+<body>
+    <div class="calender">
+
+        <div class="container">
+            <h1>December 2022</h1>
+            <ul class="head">
+                <li>Sun</li>
+                <li>Mon</li>
+                <li>Tue</li>
+                <li>Wed</li>
+                <li>Thu</li>
+                <li>Fri</li>
+                <li>Sat</li>
+
+            </ul>
+            <ul class="row1">
+                <li></li>
+                <li></li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+
+            </ul>
+            <ul class="row2">
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+
+            </ul>
+            <ul class="row3">
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+
+            </ul>
+            <ul class="row4">
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+
+            </ul>
+            <ul class="row5">
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+
+
+            </ul>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
